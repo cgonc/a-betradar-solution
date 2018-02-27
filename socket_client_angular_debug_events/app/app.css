@@ -1,0 +1,13 @@
+body {
+    padding-top: 40px;
+}
+
+#watchBetRadarEventsViews {
+    padding-left: 20px;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}

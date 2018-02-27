@@ -1,0 +1,15 @@
+{
+    "strict": "global",
+    "globals": {
+        "jQuery": false,
+        "console": false,
+        "require": false,
+        "__dirname": false,
+        "$": false,
+        "module": false,
+        "angular": false,
+        "global": false,
+        "__base": false
+
+    }
+}

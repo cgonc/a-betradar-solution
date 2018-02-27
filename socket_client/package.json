@@ -1,0 +1,14 @@
+{
+  "name": "production-socket-client",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Client codes for our custom socket server",
+  "repository": "https://bitbucket.org/icelandplatform/betradar_solution",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

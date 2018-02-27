@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=unified-sdk-jar-with-dependencies.jar -DgroupId=com.sportradar.sdk  -DartifactId=unified-sdk -Dversion=1.0 -Dpackaging=jar
