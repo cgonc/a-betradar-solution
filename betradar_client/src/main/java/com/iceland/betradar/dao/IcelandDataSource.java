@@ -22,23 +22,23 @@ public enum IcelandDataSource {
 		switch (environment) {
 			case "local" :
 				config.setJdbcUrl("jdbc:mysql://localhost:3306/iceland_local?autoReconnect=true&useSSL=false");
-				config.setUsername("root");
-				config.setPassword("umaj6310");
+				config.setUsername("${username.local}");
+				config.setPassword("${password.local}");
 				break;
 			case "local_homestead":
 				config.setJdbcUrl("jdbc:mysql://192.168.10.10:3306/iceland_test?autoReconnect=true&useSSL=false");
-				config.setUsername("homestead");
-				config.setPassword("secret");
+				config.setUsername("${username.local}");
+				config.setPassword("${password.local}");
 				break;
 			case "production_test" :
 				config.setJdbcUrl("jdbc:mysql://173.209.59.66/iceland_test?autoReconnect=true&useSSL=false");
-				config.setUsername("iceland_admin");
-				config.setPassword("6TdB0wiI9+bJ");
+				config.setUsername("${username.local}");
+				config.setPassword("${password.local}");
 				break;
 			case "production" :
 				config.setJdbcUrl("jdbc:mysql://173.209.59.66/iceland_db?autoReconnect=true&useSSL=false");
-				config.setUsername("iceland_admin");
-				config.setPassword("6TdB0wiI9+bJ");
+				config.setUsername("${username.local}");
+				config.setPassword("${password.local}");
 				break;
 		}
 
