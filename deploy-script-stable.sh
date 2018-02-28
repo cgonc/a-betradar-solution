@@ -1,6 +1,6 @@
 supervisorctl stop all
 pm2 stop iceland_socket
-git pull https://ozanyildirim:ozzy1234@bitbucket.org/icelandplatform/betradar_solution.git release_v.1.0
+git pull --
 cd betradar_client/
 mvn clean compile assembly:single
 rm -f /home/iceland/betradar-jar/betradar-client-1.0-jar-with-dependencies.jar
