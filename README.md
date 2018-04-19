@@ -10,6 +10,6 @@ A tracer bullet for betradar integration sollution.
 
 ### How do I get set up? ###
 
-* Just clone the repository and run make.cmd in the root folder for js dependency trees. This will also start your socket server.
+* Just clone the repository and run make.cmd in the root folder for fetching js dependency trees. This will also start your socket server.
 * Betradar client is written in java using maven. A standard maven project can be opened in your favourite ide.
-* just make a clen install by yourself or by your ide.
+* Just make a clean install using maven and be aware of the third party betradar dependencies.
